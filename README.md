@@ -12,7 +12,6 @@
 ### Frameworks:
 
 -   Server Side Framework: `Laravel 8.29.0`
--   Javascript Framework: `Vuejs 2.6.*`
 -   CSS Framework: `Bootstrap v4.6.0`
 
 ### System Requirements:
@@ -42,7 +41,7 @@
 
 1. Clone Repository
 
-    `git clone https://github.com/devfreemight/takumoi-laravel.git`
+    `https://github.com/M-yoshimura-ML/task_test.git`
 
 2. Install composer dependencies
 
@@ -56,7 +55,7 @@
 
 5. create DataBase in your local by using phpMyAdmin
 
-6. fill in DB_DATABASE name in your .env
+6. fill in `DB_DATABASE` name in your .env
 
 7. Migrations and Seeders
 
