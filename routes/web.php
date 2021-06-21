@@ -40,3 +40,10 @@ Route::get('employees/import', 'App\Http\Controllers\EmployeesController@import'
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+
+Route::get('/{vue?}', function () {
+    return view('layouts.contact-us')->with('preload', []);
+})->where('vue', '[\/\w\.-]*');
+
